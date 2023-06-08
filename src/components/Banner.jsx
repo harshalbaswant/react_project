@@ -10,11 +10,14 @@ export default function Banner() {
         <h2 className="text-white text-[44px]  md:text-[80px] mt-4 ">Grow With us.</h2>
         <div className="md:text-[50px] text-[20px] text-white mt-4">
             Learn 
-            <Typed
-                    strings={['Web development','Digital Marketing','Ethical Hackinng']}
+            <Typed className="pl-3"
+                    strings={['Web development','Digital Marketing','Ethical Hacking']}
                     typeSpeed={100}
+                    loop={true}
+                    backSpeed={120}
                 />
         </div>
+        <button className="bg-black text-white p-3 rounded mt-3 ">Get Started</button>
       </div>
     </div>
   );
